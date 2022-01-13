@@ -8,8 +8,8 @@ using std::ifstream;
 using namespace std;
 
 bool gameOver;
-const int width = 40.0;
-const int height = 12.0;
+const int width = 30.0;
+const int height = 30.0;
 int x, y, fruitX, fruitY, score;
 enum eDirection {STOP = 0, LEFT, RIGHT, UP, DOWN};
 eDirection dir;
